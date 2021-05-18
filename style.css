@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgb(31, 103, 235);
+    width: 20%;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container .storage {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.container .text {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .button {
+    padding: 1.5rem 4rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container .reload {
+    margin-top: 2rem;
+    padding: 1.5rem 4rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: rgb(20, 49, 175);
+    color: white;
+    display: none;
+}
+
+.saved {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.saved-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.reload-show {
+    display: block !important;
+
+}
